@@ -1,0 +1,461 @@
+
+body {
+	color:#2FC5D6;
+	font-family: 'webfontregular', sans-serif;
+	font-size: 2em;
+	text-align: center;
+		
+}
+
+/*Removes buttoned list*/
+#main-content ul{
+	list-style: none;		
+	
+}
+
+
+/*In desktop mode menu items in white*/
+#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
+	color:#2FC5D6;
+	text-transform: uppercase;
+	font-size: medium;
+	
+}
+/*In desktop mode menu items have no underline and have color on hover*/
+#Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	
+}
+/*Icon in desktop will not have hover style*/
+.Icon a:hover{
+	text-decoration: none;
+}
+.Icons ul a img{
+	transition: transform 0.1s ease-in ;	
+}
+
+.Icons ul a img:hover
+{
+	transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*To reduce the size of SocialIcon logo image in tab and desk view*/
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	div#main-content{/*Makes the image cover the body */
+		background: url("../images/rebgs/Sid\ Acharya\ 1.jpg") no-repeat center fixed;
+		background-size:cover; 
+		width: 100vw;
+		height: 100vh ;
+		background-position: top;
+		z-index: 1;
+		position: relative;
+		
+	}
+
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: flex-end;
+	}
+	/*Menu Items get partial transparent bgcolor*/
+	#main-content ul.menuitems li{
+		background-color: #0A1938;
+		opacity: 0.7;
+		padding:16px;
+		margin-top: 48px;
+	}
+	#main-content ul.menuitems #Home{
+		padding-left: 32px;
+	}
+	#main-content ul.menuitems #Contact{
+		padding-right: 32px;
+	}
+	/*
+	.Icons span.row{
+		
+		padding-right: 10px;
+		margin-right: 0px;
+		display: inline-block;
+		padding: 8px 8px 8px 8px;
+	}
+	.Icons span.row ul{
+		line-height: 40px;
+		padding-right: 5px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.Icons span.row ul li{
+    	padding:0px 4px 0px 4px;}/*Left and right padding for list items*/
+	
+
+	/*
+	#fx-icon{
+		display: flex;
+		position: absolute;
+		max-width: 90px;
+		right: 4vw;
+		bottom:0px;
+		flex-direction: column;
+	}
+	.Icons{
+		background-color: #0A1938;
+		opacity: 0.7;
+		max-width: 100%;
+		align-self: flex-start;
+		margin-bottom: 20px;
+	}
+		*/
+
+	
+	
+		#fx-icon{
+			display: flex;
+			position: absolute;
+			max-width: 103px;
+			right: 4vw;
+			bottom:0px;
+			flex-direction: column;
+		}
+		
+		.Icons{
+			background-color: #0A1938;
+			opacity: 0.7;			
+			align-self: flex-start;
+			padding-right: 0px;
+			margin-bottom: 20px;
+			width: max-content;
+		}
+		 
+		
+		.Icons span.row{
+			background-color: #0A1938;
+			opacity: 0.7;
+			padding-right: 10px;
+			margin-right: 0px;
+			display: inline-block;
+			margin-top:0px; 
+			padding: 16px;
+		}
+		.Icons span.row ul{
+			line-height: 40px;
+			padding-right: 5px;
+			padding: 0px;
+			margin: 0px;
+		}
+	
+		.Icons span.row ul li{
+			
+			padding:0px 4px 0px 4px;/*Left and right padding for list items*/
+		}
+	
+		.Icons ul a img{
+			max-width: 25px;
+			height: 25px;
+			object-fit: contain;
+		}
+		
+		.Icons ul #SoundcloudButton a img{
+			max-width: 30px;
+			height: 25px;
+			object-fit: contain;
+		}
+		.Iconcool{	
+			background-color: #0A1938;
+			opacity: 0.7;	
+			width: 100%;
+			height: 40px;
+			
+		}
+
+	
+	.Icons ul #SoundcloudButton a img{
+		max-width: 30px;
+		}
+	.Icons ul #BandCampButton a img{
+		max-width: 30px;
+		
+	}
+	
+	
+	
+}
+  
+  /********** Medium devices and Small Devices only **********/
+  @media (min-width: 768px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/rebgs/Sid\ Acharya\ 1.jpg") no-repeat center  fixed;
+		background-size: cover;
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+		
+	}
+	#brandlogo{
+		max-width: 1000px;
+		height: 100px;
+		object-fit: contain;
+		padding: 8px;
+		padding-right: 12px;
+	}
+	
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: center;
+			
+	}
+	/*Menu Items get partial transparent bgcolor*/
+	#main-content ul.menuitems li{
+		background-color: #0A1938;
+		opacity: 0.7;
+		padding: 4px 16px 4px 16px;
+		margin-top: 24px;
+	}
+	#main-content ul.menuitems #Home{
+		padding-left: 32px;
+	}
+	#main-content ul.menuitems #Contact{
+		padding-right: 32px;
+	}
+	
+	.Icons{	
+		position: absolute;
+		width: max-content;
+		right: 4vw;
+		bottom: 0px;
+		height: max-content;
+	}
+	.Icons span.row{
+		background-color: #0A1938;
+		opacity: 0.7;
+		padding-right: 10px;
+		margin-right: 0px;
+		display: inline-block;
+		margin-top:0px; 
+		padding: 8px 8px 8px 8px;
+	}
+	.Icons span.row ul{
+		line-height: 40px;
+		padding-right: 5px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.Icons span.row ul li{
+        
+		padding:0px 4px 0px 4px;/*Left and right padding for list items*/
+	}
+
+	.Icons ul a img{
+		max-width: 25px;
+		height: 25px;
+		object-fit: contain;
+	}
+	
+	.Icons ul #SoundcloudButton a img{
+		max-width: 30px;
+		}
+	.Icons ul #BandCampButton a img{
+		max-height: 30px;
+		
+	}
+	
+
+}
+  
+  
+  
+  
+  /********** Extra small devices only **********/
+ 
+@media (max-width: 767px) {
+	/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	div#main-content {
+		background: url("../images/rebgs/Sid\ Acharya\ 5.jpg") no-repeat center  fixed;
+		background-size: cover;
+		background-position: right 55% bottom 50%;
+		width: 100vw;
+		height: 100vh;
+		overflow: auto;/*Makes the margin of fx-container transparent instead of white*/
+		display: flex;/*Makes it possible for items to stick to right*/
+		flex-direction: column;/*Makes the flex items a coloumn*/
+	}
+	#fx-container{
+		margin-top: 5vh;	/*Sets margintop of brand and menu as required*/
+		
+	}
+	#fx-menu{
+		width: 100%;/*Makes the menu items gravitate to bottom*/	
+	}
+	.menuxs{
+		background-color: #0A1938;
+		opacity: 0.7;
+		color:#2FC5D6;
+		width: 100px;
+		position: fixed;
+		transform: rotate(270deg) translate(-36px,-36px);
+		font-size:15px;	
+		padding-top:10px;
+		padding-bottom:6px; 
+		/*Makes rotated image translate bby right dimensions*/
+	}
+	.brand{
+		position: absolute;
+		right: 0px;
+		position: fixed;	
+		transform: translate3d(0,0,0);
+	}	
+	#brandlogo{ 	
+		background-color: #0A1938;
+		opacity: 0.7;
+		max-width: 100%;
+		height: 100px;
+		object-fit: contain;
+		padding: 8px;
+		padding-right: 12px;
+	}
+	#close{
+		position: fixed;
+		float: right;
+		right: 0px;
+		top:0px;
+		width: max-content;
+		margin:16px 16px 0px 0px;	
+	}
+	#cross{
+		max-width: 15px;
+		height: 15px;
+		object-fit: contain;
+	}
+	#fx-menu ul.menuitems{
+		background:rgba(47, 197, 214, 0.4);
+		color: aquamarine;
+		min-width: max-content;
+		max-width: 25vw;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding:30px 30px;/*Remove default*/	
+		margin-bottom: 0px;/*Remove default*/
+	}
+
+	#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
+		color:#2FC5D6;
+		text-transform: uppercase;
+		font-size:20px;
+		font-weight:bold;	
+	}
+	
+	#fx-menu ul.menuitems li{
+		padding: 9px 0px;
+	}	
+	
+	
+
+	.Icons ul a img{
+		max-width: 25px;
+		height: 25px;
+		object-fit: contain;
+	}
+	.Icons span ul{
+		padding:8px 0px;
+		margin: 0px;	
+	}
+	.Icons span #socialmediabuttons{
+		min-width: 50%;
+		max-width: 100px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.Icons span #musicbuttons{
+		min-width: 100%;
+		max-width: 120px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.Icons span ul li{
+		display: inline-block;
+		padding: 0px 5px;
+	}
+	.Icons{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 50vw;
+		}
+	#socialmediabuttons{
+		display: flex;
+		flex-direction: row;
+	}
+	#InstagramButton,#FaceBookButton,#TwitterButton{
+		width: 33.33%;
+	}
+	#musicbuttons{
+		display: flex;
+		flex-direction: row;
+	}
+	#AppleMusicButton,#SpotifyButton,#BandCampButton,#SoundcloudButton{
+		width: 25%;
+	}
+	.Iconcool{	
+		background-color:#2FC5D6;
+		color: lightblue;
+		opacity: 0.4;
+		min-width: 122.78px;
+		max-width: 25vw;
+		margin-left: auto;
+		margin-right: auto;
+		height: 48px;	
+		bottom:0px;		
+	}
+	
+	  
+} 	

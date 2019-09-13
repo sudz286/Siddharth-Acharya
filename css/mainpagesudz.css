@@ -1,0 +1,279 @@
+
+#main-content{
+    vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+
+.UpcomingEvents{
+    background-color: #0A1938;
+    position: fixed;
+    line-height: 40px;
+    right:0vw;
+    display:inline-block;
+    opacity:0.6;
+    margin-top:65px;
+}
+.UpcomingEvents span{
+    color:aqua;
+    text-transform: uppercase;
+    padding-left:45px;
+    padding-right:45px;
+    font-size: 18px;
+}
+
+
+.EventName{
+	float:right;
+	position:fixed;
+	opacity:0.6;
+	background-color: aqua;
+	line-height: 70px;
+	right:0vw;
+	opacity:0.6;
+	margin-top:145px;
+}
+
+.EventName span{
+	color:#0A1938;
+	font-weight:bold;	
+	padding-left:100px;
+	padding-right:100px;
+	font-size: 25px;
+	opacity:1.0;
+	display:inline-block;
+}
+
+.EventBand{
+	position:fixed;
+	right:117px;
+	opacity:0.6;
+	background-color: aqua;
+	line-height: 50px;
+	opacity:0.6;
+	margin-top:240px;
+}
+
+.EventBand span{
+	color:#0A1938;
+	font-weight:bold;	
+	opacity:1.0;
+	text-transform: uppercase;
+	padding-left:30px;
+	padding-right:30px;
+	font-size: 18px;
+	display:inline-block;
+}
+
+.EventDate{
+	position:fixed;
+	right:380px;
+	opacity:0.6;
+	background-color:aqua;
+	line-height:144.7px;
+	opacity:0.6;
+	margin-top:145px;
+
+}
+
+.EventDate span{	
+	color:#0A1938;
+	opacity:1.0;
+	font-weight:bold;	
+	padding-left:30px;
+	padding-right:30px;
+	font-size: 28px;
+	display:inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** Large devices only **********/
+@media (min-width: 1200px) {
+    body{/*Makes the image cover the body */
+        
+		background: url("../images/BG_Tour.jpg") no-repeat center  fixed;
+		background-size:cover; 
+		width: 100vw;
+		height: 100vh;
+		
+	
+		
+	}
+		#main-content ul.menuitems{
+			padding-right:0;		
+		}
+		#main-content ul.menuitems span{
+		display: flex;
+		justify-content: flex-end;
+			
+	}
+	#fx-icon{
+		position: absolute;
+		right: 0px;
+		
+}
+.Icons{
+		position: absolute; 
+		right: 0px;       
+		bottom: 0px;/*Makes the icons stick to the right of the body*/
+		margin-bottom: 24px;/*Gives a margin at bottom for icons*/
+}
+
+.Icons span.row{
+
+		padding: 0px 16px 4px 16px;
+}
+.Icons span.row ul{	
+		display: flex;/*Makes all the icons lie on the same plane*/
+		padding:0px;/*Removes padding set by styles_mine*/
+		width: max-content;/*Wraps around content*/
+}
+.Icons span.row ul li{
+		
+		padding:8px;/*Left and right padding for list items*/
+}
+.Icons ul a img{
+		max-width: 20px;
+		height: 20px;
+		object-fit: contain;/*Controls the size of Social Media Icons*/
+}
+
+    
+}
+  
+  /********** Medium devices and Small Devices only **********/
+  @media (min-width: 768px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/BG_Tour.jpg") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+		}
+	.UpcomingEvents{
+		margin-top:30px;
+	}
+	.EventName{
+		margin-top: 90px;
+	}
+	.EventBand{
+		margin-top: 190px;
+	}
+	.EventDate{
+		margin-top:90px;
+	}
+	#fx-icon{
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		margin-top: 10vh;
+		
+}
+.Icons{
+		position: absolute; 
+		right: 0px;       
+		bottom: 0px;/*Makes the icons stick to the right of the body*/
+		margin-bottom: 8px;/*Gives a margin at bottom for icons*/
+		padding-right: 0px;
+}
+
+.Icons span.row{
+
+		padding: 0px 16px 4px 16px;
+}
+.Icons span.row ul{	
+		display: flex;/*Makes all the icons lie on the same plane*/
+		padding:0px;/*Removes padding set by styles_mine*/
+		width: max-content;/*Wraps around content*/
+}
+.Icons span.row ul li{
+		
+		padding:8px;/*Left and right padding for list items*/
+}
+.Icons ul a img{
+		max-width: 20px;
+		height: 20px;
+		object-fit: contain;/*Controls the size of Social Media Icons*/
+}
+	
+}
+  
+  
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	div#main-content {
+		background: url("../images/BG_MobileTab.jpg") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	
+		}
+		.UpcomingEvents{
+			margin-top:150px;
+			line-height: 30px;
+		}
+
+		.UpcomingEvents span{
+			
+			font-size: 14px;
+		}
+		.EventName{
+			margin-top: 210px;
+			line-height: 60px;
+		}
+		.EventName span{
+			padding-left:70px;
+			padding-right:70px;
+		}
+		.EventBand{
+			margin-top: 290px;
+			line-height: 35px;
+			right:97px;
+		}
+
+		.EventBand span{
+			font-size:14px;
+		}
+
+		.EventDate{
+			margin-top:210px;
+			line-height:115.9px;
+			right:310px;
+		}
+
+		.EventDate span{		
+			padding-left:20px;
+			padding-right:20px;
+			font-size: 24px;
+			display:inline-block;
+		
+		}
+		
+		
+  }

@@ -1,0 +1,272 @@
+
+#main-content{
+    vertical-align: middle;
+}
+#mainmed{
+    overflow: scroll;
+    padding: 8px;
+}
+#mainmed a{
+    text-decoration: none;
+    color:  #2FC5D6;
+}
+#mainmed .art{    
+    padding: 8px;
+}
+#mainmed::-webkit-scrollbar{
+    background-color: #0A1938;
+    
+}
+#mainmed::-webkit-scrollbar-button{
+    background: #0A1938;
+}       
+#mainmed::-webkit-scrollbar-thumb{
+    background: #0A1938;
+}
+#mainmed::-webkit-scrollbar-track{
+    background: rgba(47, 197, 214,1);
+    
+}
+
+/* #mainmed .article{
+    width: 100%;
+    min-height: 20vh;
+    background-color:#0A1938;
+    color:  #2FC5D6;
+    font-family: 'webfontregular', sans-serif;
+	opacity: 1;    
+    text-align: justify;
+    margin:8px 0px;
+    vertical-align: middle;
+    border: 2px ridge #0A1938;
+    border-radius: 4px;
+    scroll-snap-type: y mandatory;              
+    
+} */
+
+/* #mainmed .article{
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+   }
+#mainmed .article div{
+    margin: 8px;
+    align-self: center;
+    text-align: justify;
+    
+}
+#mainmed .article:hover{
+    background-color: rgb(4, 17, 44);
+} */
+
+
+
+
+/*********** Large devices only **********/
+@media (min-width: 1200px) {
+    div#main-content{/*Makes the image cover the body */
+        
+		background: url("../images/rebgs/Sid\ Acharya\ 7.jpg") no-repeat center  fixed;
+		background-size:cover; 
+		width: 100vw;
+		height: 100vh;	
+	}
+    #main-content ul.menuitems{
+			padding-right:0;		
+    }
+    #main-content ul.menuitems span{
+		display: flex;
+		justify-content: flex-end;
+			
+	}
+	#fx-icon{
+		position: absolute;
+		right: 0px;
+		
+    }
+    .Icons{
+        position: absolute; 
+        right: 0px;       
+        bottom: 0px;/*Makes the icons stick to the right of the body*/
+        margin-bottom: 24px;/*Gives a margin at bottom for icons*/
+    }
+
+    .Icons span.row{
+        padding: 0px 16px 4px 16px;
+    }
+    .Icons span.row ul{	
+        display: flex;/*Makes all the icons lie on the same plane*/
+        padding:0px;/*Removes padding set by styles_mine*/
+      
+    }
+    .Icons span.row #socialmediabuttons{
+        width: 101.667px;
+    }   
+    .Icons span.row #musicbuttons{
+        width: 164px;
+    }
+    .Icons span.row ul li{
+            
+        padding:8px;/*Left and right padding for list items*/
+    }
+    .Icons ul a img{
+        max-width: 20px;
+        height: 20px;
+        object-fit: contain;/*Controls the size of Social Media Icons*/
+    }
+
+    #mainmed{
+        margin-top:0vh;
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: #2FC5D6;
+        border-right: 0px; */
+        padding-left: 12px;
+        min-width: 740px;
+        max-height: 361px;
+        min-height: 361px;
+        position: absolute;
+        left: 25%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+           
+   }
+    
+  
+     
+}
+  
+  /********** Medium devices and Small Devices only **********/
+  @media (min-width: 768px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/rebgs/Sid\ Acharya\ 7.jpg") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+        height: 100vh;
+	}
+
+	#fx-icon{
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		margin-top: 10vh;
+		
+    }
+    .Icons{
+		position: absolute; 
+		right: 0px;       
+		bottom: 0px;/*Makes the icons stick to the right of the body*/
+		margin-bottom: 8px;/*Gives a margin at bottom for icons*/
+		padding-right: 0px;
+    }
+
+    .Icons span.row{
+
+		padding: 0px 16px 4px 16px;
+    }
+    .Icons span.row ul{	
+		display: flex;/*Makes all the icons lie on the same plane*/
+		padding:0px;/*Removes padding set by styles_mine*/
+		
+    }
+    .Icons span.row #socialmediabuttons{
+        width: 101.667px;
+    }   
+    .Icons span.row #musicbuttons{
+        width: 164px;
+    }
+    .Icons span.row ul li{
+		
+		padding:8px;/*Left and right padding for list items*/
+    }
+    .Icons ul a img{
+		max-width: 20px;
+		height: 20px;
+		object-fit: contain;/*Controls the size of Social Media Icons*/
+    }
+    #mainmed{
+        margin-top:2vh;
+        /* border-width: 10px;
+        border-style:groove;
+        border-color: #0A1938; */
+        min-width: max-content ;
+        max-width: max-content;
+        min-height: 340px;
+        max-height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4px 16px;   
+        /*Allows scrolling on iOS Devices */
+        -webkit-overflow-scrolling: touch;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        /*  */
+        scroll-snap-type: y mandatory;
+    }
+    #mainmed .art{
+        width: 340px;
+        margin: 0px;
+        scroll-snap-align: start ;
+    }
+    
+    
+	
+}
+  
+  
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px){
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+        div#main-content {
+            background: url("../images/rebgs/Sid\ Acharya\ 7.jpg") no-repeat center  fixed;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            }
+        /* #mainmed{
+            margin-top:30vh;
+            border-width: 10px;
+            border-style:groove;
+            border-color: #0A1938;
+            max-width:360px;
+            min-width: max-content;
+            height: 50vh;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 4px 16px;   
+            font-size: 0.8em;
+        }
+        #mainmed .art{
+            width:350px;
+            margin: 0px;
+        } */
+        #mainmed{
+            margin-top:30vh;
+            /* border-width: 10px 0px;
+            border-style:solid none;
+            border-color: #2FC5D6 none; */
+            width:100vw;
+            min-height: 360px;
+            max-height: 360px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 4px 16px;   
+            /*Allows scrolling on iOS Devices */
+            -webkit-overflow-scrolling: touch;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            /*  */
+            scroll-snap-type: y mandatory;
+        }
+        #mainmed .art{
+            width: 340px;
+            margin: auto; 
+            scroll-snap-align: start ; 
+        }
+		
+  }

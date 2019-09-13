@@ -1,0 +1,110 @@
+Jul 10 06:43:22 10.71.53.12 tmp97546077-7509 Connection from 10.71.53.12 port 34530 on 74.208.56.69 port 22
+Jul 10 06:43:23 10.71.53.12 tmp97546077-7509 Accepted password for tmp97546077-7509 from 10.71.53.12 port 34530 ssh2
+Jul 10 06:43:23 10.71.53.12 tmp97546077-7509 Starting session: subsystem 'sftp' for tmp97546077-7509 from 10.71.53.12 port 34530
+Jul 10 06:43:23 10.71.53.12 tmp97546077-7509 session opened for local user tmp97546077-7509 from [10.71.53.12]
+Jul 10 06:45:15 10.71.53.12 tmp97546077-6306 Connection from 10.71.53.12 port 21722 on 74.208.56.69 port 22
+Jul 10 06:45:16 10.71.53.12 tmp97546077-6306 Accepted password for tmp97546077-6306 from 10.71.53.12 port 21722 ssh2
+Jul 10 06:45:17 10.71.53.12 tmp97546077-7509 open "/css/styles_mine.css" flags READ mode 0666
+Jul 10 06:45:17 10.71.53.12 tmp97546077-7509 close "/css/styles_mine.css" bytes read 8269 written 0
+Jul 10 06:45:17 10.71.53.12 tmp97546077-7509 [10.71.53.12|get|0|8269|0|0|0|2f6373732f7374796c65735f6d696e652e637373|]
+Jul 10 06:55:29 10.71.53.12 tmp97546077-7509 open "/css/styles_mine.css" flags READ mode 0666
+Jul 10 06:55:29 10.71.53.12 tmp97546077-7509 close "/css/styles_mine.css" bytes read 8269 written 0
+Jul 10 06:55:29 10.71.53.12 tmp97546077-7509 [10.71.53.12|get|0|8269|0|0|0|2f6373732f7374796c65735f6d696e652e637373|]
+Jul 10 07:47:29 10.71.55.19 u97546077 Connection from 10.71.55.19 port 21958 on 74.208.56.69 port 22
+Jul 10 07:47:35 10.71.55.19 u97546077 Accepted password for u97546077 from 10.71.55.19 port 21958 ssh2
+Jul 10 07:47:36 10.71.55.19 u97546077 Starting session: subsystem 'sftp' for u97546077 from 10.71.55.19 port 21958
+Jul 10 07:47:36 10.71.55.19 u97546077 session opened for local user u97546077 from [10.71.55.19]
+Jul 10 07:49:08 10.71.55.19 u97546077 Connection from 10.71.55.19 port 53684 on 74.208.56.69 port 22
+Jul 10 07:49:10 10.71.55.19 u97546077 Accepted password for u97546077 from 10.71.55.19 port 53684 ssh2
+Jul 10 07:49:08 10.71.55.19 u97546077 Connection from 10.71.55.19 port 53688 on 74.208.56.69 port 22
+Jul 10 07:49:10 10.71.55.19 u97546077 Accepted password for u97546077 from 10.71.55.19 port 53688 ssh2
+Jul 10 07:49:10 10.71.55.19 u97546077 Starting session: subsystem 'sftp' for u97546077 from 10.71.55.19 port 53688
+Jul 10 07:49:10 10.71.55.19 u97546077 Starting session: subsystem 'sftp' for u97546077 from 10.71.55.19 port 53684
+Jul 10 07:49:10 10.71.55.19 u97546077 session opened for local user u97546077 from [10.71.55.19]
+Jul 10 07:49:10 10.71.55.19 u97546077 session opened for local user u97546077 from [10.71.55.19]
+Jul 10 07:49:13 10.71.55.19 u97546077 open "/README.md" flags READ mode 0666
+Jul 10 07:49:13 10.71.55.19 u97546077 open "/Social Media Icons.zip" flags READ mode 0666
+Jul 10 07:49:14 10.71.55.19 u97546077 close "/README.md" bytes read 1340 written 0
+Jul 10 07:49:14 10.71.55.19 u97546077 [10.71.55.19|get|1|1340|0|0|0|2f524541444d452e6d64|]
+Jul 10 07:49:15 10.71.55.19 u97546077 close "/Social Media Icons.zip" bytes read 117270 written 0
+Jul 10 07:49:15 10.71.55.19 u97546077 [10.71.55.19|get|2|117270|0|0|0|2f536f6369616c204d656469612049636f6e732e7a6970|]
+Jul 10 07:49:15 10.71.55.19 u97546077 open "/album.html" flags READ mode 0666
+Jul 10 07:49:15 10.71.55.19 u97546077 sent status No such file
+Jul 10 07:49:16 10.71.55.19 u97546077 open "/.htaccess" flags READ mode 0666
+Jul 10 07:49:16 10.71.55.19 u97546077 close "/album.html" bytes read 6657 written 0
+Jul 10 07:49:16 10.71.55.19 u97546077 [10.71.55.19|get|1|6657|0|0|0|2f616c62756d2e68746d6c|]
+Jul 10 07:49:16 10.71.55.19 u97546077 close "/.htaccess" bytes read 132 written 0
+Jul 10 07:49:16 10.71.55.19 u97546077 [10.71.55.19|get|0|132|0|0|0|2f2e6874616363657373|]
+Jul 10 07:49:17 10.71.55.19 u97546077 open "/videos.html" flags READ mode 0666
+Jul 10 07:49:17 10.71.55.19 u97546077 open "/tour.html" flags READ mode 0666
+Jul 10 07:49:18 10.71.55.19 u97546077 close "/videos.html" bytes read 6471 written 0
+Jul 10 07:49:18 10.71.55.19 u97546077 [10.71.55.19|get|1|6471|0|0|0|2f766964656f732e68746d6c|]
+Jul 10 07:49:18 10.71.55.19 u97546077 close "/tour.html" bytes read 7075 written 0
+Jul 10 07:49:18 10.71.55.19 u97546077 [10.71.55.19|get|1|7075|0|0|0|2f746f75722e68746d6c|]
+Jul 10 07:49:19 10.71.55.19 u97546077 open "/story.html" flags READ mode 0666
+Jul 10 07:49:19 10.71.55.19 u97546077 open "/media.html" flags READ mode 0666
+Jul 10 07:49:19 10.71.55.19 u97546077 close "/story.html" bytes read 4947 written 0
+Jul 10 07:49:19 10.71.55.19 u97546077 [10.71.55.19|get|0|4947|0|0|0|2f73746f72792e68746d6c|]
+Jul 10 07:49:20 10.71.55.19 u97546077 open "/mainpagesudz.html" flags READ mode 0666
+Jul 10 07:49:20 10.71.55.19 u97546077 close "/media.html" bytes read 139105 written 0
+Jul 10 07:49:20 10.71.55.19 u97546077 [10.71.55.19|get|1|139105|0|0|0|2f6d656469612e68746d6c|]
+Jul 10 07:49:21 10.71.55.19 u97546077 open "/index.html" flags READ mode 0666
+Jul 10 07:49:21 10.71.55.19 u97546077 close "/mainpagesudz.html" bytes read 4120 written 0
+Jul 10 07:49:21 10.71.55.19 u97546077 [10.71.55.19|get|1|4120|0|0|0|2f6d61696e706167657375647a2e68746d6c|]
+Jul 10 07:49:22 10.71.55.19 u97546077 open "/contact.html" flags READ mode 0666
+Jul 10 07:49:22 10.71.55.19 u97546077 close "/index.html" bytes read 4267 written 0
+Jul 10 07:49:22 10.71.55.19 u97546077 [10.71.55.19|get|1|4267|0|0|0|2f696e6465782e68746d6c|]
+Jul 10 07:49:23 10.71.55.19 u97546077 close "/contact.html" bytes read 5693 written 0
+Jul 10 07:49:23 10.71.55.19 u97546077 [10.71.55.19|get|1|5693|0|0|0|2f636f6e746163742e68746d6c|]
+Jul 10 07:49:24 10.71.55.19 u97546077 open "/logs/access.log.28.2.gz" flags READ mode 0666
+Jul 10 07:49:25 10.71.55.19 u97546077 open "/logs/access.log.25.gz" flags READ mode 0666
+Jul 10 07:49:25 10.71.55.19 u97546077 close "/logs/access.log.28.2.gz" bytes read 1982 written 0
+Jul 10 07:49:25 10.71.55.19 u97546077 [10.71.55.19|get|1|1982|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e322e677a|]
+Jul 10 07:49:26 10.71.55.19 u97546077 open "/logs/access.log.24.gz" flags READ mode 0666
+Jul 10 07:49:26 10.71.55.19 u97546077 close "/logs/access.log.25.gz" bytes read 25982 written 0
+Jul 10 07:49:26 10.71.55.19 u97546077 [10.71.55.19|get|1|25982|0|0|0|2f6c6f67732f6163636573732e6c6f672e32352e677a|]
+Jul 10 07:49:27 10.71.55.19 u97546077 open "/logs/sftp.log.25.gz" flags READ mode 0666
+Jul 10 07:49:27 10.71.55.19 u97546077 close "/logs/access.log.24.gz" bytes read 2144 written 0
+Jul 10 07:49:27 10.71.55.19 u97546077 [10.71.55.19|get|1|2144|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e677a|]
+Jul 10 07:49:28 10.71.55.19 u97546077 open "/logs/access.log.28.1.gz" flags READ mode 0666
+Jul 10 07:49:28 10.71.55.19 u97546077 close "/logs/sftp.log.25.gz" bytes read 12864 written 0
+Jul 10 07:49:28 10.71.55.19 u97546077 [10.71.55.19|get|1|12864|0|0|0|2f6c6f67732f736674702e6c6f672e32352e677a|]
+Jul 10 07:49:29 10.71.55.19 u97546077 open "/logs/access.log.27.7.gz" flags READ mode 0666
+Jul 10 07:49:29 10.71.55.19 u97546077 close "/logs/access.log.28.1.gz" bytes read 2163 written 0
+Jul 10 07:49:29 10.71.55.19 u97546077 [10.71.55.19|get|1|2163|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e312e677a|]
+Jul 10 07:49:29 10.71.55.19 u97546077 open "/logs/access.log.27.5.gz" flags READ mode 0666
+Jul 10 07:49:29 10.71.55.19 u97546077 close "/logs/access.log.27.7.gz" bytes read 1748 written 0
+Jul 10 07:49:29 10.71.55.19 u97546077 [10.71.55.19|get|0|1748|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e372e677a|]
+Jul 10 07:49:30 10.71.55.19 u97546077 open "/logs/access.log.27.4.gz" flags READ mode 0666
+Jul 10 07:49:30 10.71.55.19 u97546077 close "/logs/access.log.27.5.gz" bytes read 2308 written 0
+Jul 10 07:49:30 10.71.55.19 u97546077 [10.71.55.19|get|1|2308|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e352e677a|]
+Jul 10 07:49:31 10.71.55.19 u97546077 open "/logs/access.log.27.3.gz" flags READ mode 0666
+Jul 10 07:49:31 10.71.55.19 u97546077 close "/logs/access.log.27.4.gz" bytes read 4945 written 0
+Jul 10 07:49:31 10.71.55.19 u97546077 [10.71.55.19|get|1|4945|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e342e677a|]
+Jul 10 07:49:32 10.71.55.19 u97546077 open "/logs/access.log.27.1.gz" flags READ mode 0666
+Jul 10 07:49:32 10.71.55.19 u97546077 close "/logs/access.log.27.3.gz" bytes read 2360 written 0
+Jul 10 07:49:32 10.71.55.19 u97546077 [10.71.55.19|get|1|2360|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e332e677a|]
+Jul 10 07:49:33 10.71.55.19 u97546077 open "/logs/access.log.23.gz" flags READ mode 0666
+Jul 10 07:49:33 10.71.55.19 u97546077 close "/logs/access.log.27.1.gz" bytes read 2485 written 0
+Jul 10 07:49:33 10.71.55.19 u97546077 [10.71.55.19|get|1|2485|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e312e677a|]
+Jul 10 07:49:34 10.71.55.19 u97546077 open "/logs/sftp.log.24.gz" flags READ mode 0666
+Jul 10 07:49:34 10.71.55.19 u97546077 close "/logs/access.log.23.gz" bytes read 1695 written 0
+Jul 10 07:49:34 10.71.55.19 u97546077 [10.71.55.19|get|1|1695|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e677a|]
+Jul 10 07:49:35 10.71.55.19 u97546077 open "/logs/access.log.26.gz" flags READ mode 0666
+Jul 10 07:49:35 10.71.55.19 u97546077 close "/logs/sftp.log.24.gz" bytes read 10622 written 0
+Jul 10 07:49:35 10.71.55.19 u97546077 [10.71.55.19|get|1|10622|0|0|0|2f6c6f67732f736674702e6c6f672e32342e677a|]
+Jul 10 07:49:36 10.71.55.19 u97546077 open "/logs/access.log.27.6.gz" flags READ mode 0666
+Jul 10 07:49:36 10.71.55.19 u97546077 close "/logs/access.log.26.gz" bytes read 19624 written 0
+Jul 10 07:49:36 10.71.55.19 u97546077 [10.71.55.19|get|1|19624|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e677a|]
+Jul 10 07:49:37 10.71.55.19 u97546077 open "/logs/access.log.27.2.gz" flags READ mode 0666
+Jul 10 07:49:37 10.71.55.19 u97546077 close "/logs/access.log.27.6.gz" bytes read 2541 written 0
+Jul 10 07:49:37 10.71.55.19 u97546077 [10.71.55.19|get|1|2541|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e362e677a|]
+Jul 10 07:49:38 10.71.55.19 u97546077 open "/logs/access.log.22.gz" flags READ mode 0666
+Jul 10 07:49:38 10.71.55.19 u97546077 close "/logs/access.log.27.2.gz" bytes read 1852 written 0
+Jul 10 07:49:38 10.71.55.19 u97546077 [10.71.55.19|get|1|1852|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e322e677a|]
+Jul 10 07:49:39 10.71.55.19 u97546077 open "/logs/sftp.log.23.gz" flags READ mode 0666
+Jul 10 07:49:39 10.71.55.19 u97546077 close "/logs/access.log.22.gz" bytes read 1195 written 0
+Jul 10 07:49:39 10.71.55.19 u97546077 [10.71.55.19|get|1|1195|0|0|0|2f6c6f67732f6163636573732e6c6f672e32322e677a|]
+Jul 10 07:49:40 10.71.55.19 u97546077 open "/logs/sftp.log" flags READ mode 0666
+Jul 10 07:49:40 10.71.55.19 u97546077 close "/logs/sftp.log.23.gz" bytes read 230 written 0
+Jul 10 07:49:40 10.71.55.19 u97546077 [10.71.55.19|get|0|230|0|0|0|2f6c6f67732f736674702e6c6f672e32332e677a|]

@@ -1,0 +1,98 @@
+
+
+/* /////////////////////////////////////////////////// */
+@media (min-width: 1200px) {
+    #mainalbumlink img{
+		object-fit: fill;
+		width: 60vw;
+		height: 150px;
+		position: absolute;
+		bottom: 0px;
+		left:0px;
+		opacity: 0.9;
+		cursor: pointer;
+		
+	}
+	#albcross{
+		width: max-content;
+		height: max-content;
+		position: absolute;
+		botto	m: calc(150px - 30px) ;
+		left: calc(60vw - 23px);
+	}
+	#albcross img{
+		max-width: 15px;
+		height: 15px;
+		object-fit: contain; 
+		cursor: pointer ;
+	}
+	#cosmiccoal{
+		display:none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    #mainalbumlink img{
+		object-fit: fill;
+		width: 465px;
+		height: 140px;
+		position: absolute;
+		bottom: 0px;
+		left:0px;
+		opacity: 0.9;
+		cursor: pointer;
+
+	}
+	#albcross{
+		width: max-content;
+		height: max-content;
+		position: absolute;
+		bottom: calc(140px - 30px) ;
+		left: calc(465px - 23px);
+	}
+	#albcross img{
+		max-width: 15px;
+		height: 15px;
+		object-fit: contain; 
+		cursor: pointer ;
+	}
+	
+	#cosmiccoalsleek{
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+    #mainalbumlink img{
+		object-fit: fill;
+		width: 320px;
+		height: 95px;
+		opacity: 0.9;
+		cursor: pointer;
+		
+	}
+	#mainalbumlink{
+		position: absolute;
+		bottom: 0px;
+		width: max-content;
+		margin: auto;
+	}
+	#albcross{
+		width: max-content;
+		height: max-content;
+		position: absolute;
+		bottom: calc(95px - 30px) ;
+		left: calc(320px - 23px);
+	}
+	#albcross img{
+		max-width: 15px;
+		height: 15px;
+		object-fit: contain; 
+		cursor: pointer ;
+	}
+	#cosmiccoalsleek{
+		display: none;
+	}
+	
+	#cosmiccoal{
+		margin: 0px auto;
+	}
+}

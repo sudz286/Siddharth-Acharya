@@ -1,0 +1,225 @@
+#contactstory{
+    background-color:rgba(10, 25, 56,0.9);
+    color:  #2FC5D6;
+    opacity: 0.7;    
+    text-align: justify;
+    margin: 0px;
+    padding: 32px;
+
+}
+#maincontact{
+    /*The content will have blue box and other prop*/
+    background-color: rgba(47, 197, 214,0.8);
+    text-align: justify;
+    margin: 0px;
+    padding: 32px;
+}
+
+#maincontact a:hover{
+    text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+#maincontact a{
+    text-decoration: none;
+    color:#0A1938;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*********** Large devices only **********/
+    @media (min-width: 1200px) {
+        div#main-content{/*Makes the image cover the body */
+            background: url("../images/rebgs/Sid\ Acharya\ 3.jpg") no-repeat center fixed;
+            background-size:cover; 
+            width: 100vw;
+            height: 100vh;	
+            
+        }
+        /**/
+        #fx-icon{
+            position: absolute;
+            right: 0px;
+            
+        }
+        .Icons{
+            position: absolute; 
+            right: 0px;       
+            bottom: 0px;/*Makes the icons stick to the right of the body*/
+            margin-bottom: 24px;/*Gives a margin at bottom for icons*/
+        }
+        
+        .Icons span.row{
+    
+            padding: 0px 16px 4px 16px;
+        }
+        .Icons span.row ul{	
+            display: flex;/*Makes all the icons lie on the same plane*/
+            padding:0px;/*Removes padding set by styles_mine*/
+           
+        }
+        .Icons span.row #socialmediabuttons{
+            width: 101.667px;
+        }   
+        .Icons span.row #musicbuttons{
+            width: 164px;
+        }
+        .Icons span.row ul li{
+            
+            padding:8px;/*Left and right padding for list items*/
+        }
+        .Icons ul a img{
+            max-width: 20px;
+            height: 20px;
+            object-fit: contain;/*Controls the size of Social Media Icons*/
+        }
+        
+        #contactstory,#maincontact{
+        height: max-content;/*Wraps around content*/
+        width: max-content;
+        padding: 32px 42px 28px 42px;/*Bottom is 10 px less due to padding from para tag(10px)*/
+        width: 30vw;
+        position: absolute;
+        top:120px;
+        right: 0px;
+        /*Sticks to right end of maincontent*/
+        overflow: scroll ;/*If text overflows, then scroll*/
+        overflow-x: hidden;/*Hides the width scroll*/
+        overflow-y: hidden;
+        margin-top: 36px;
+        font-size: 16px;
+        font-weight: 900;
+        }
+        #maincontact{
+            top:270px;
+        }
+
+        #main-content{ 
+        display: flex;/*Makes it possible for items to stick to right*/
+        flex-direction: column;/*Makes the flex items a coloumn*/
+    }
+    
+    
+    }
+      
+      /********** Medium devices and Small Devices  **********/
+      @media (min-width: 768px) and (max-width: 1199px) {
+        div#main-content {
+            background: url("../images/rebgs/Sid\ Acharya\ 3.jpg") no-repeat center  fixed;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            /*Makes it possible for items to stick to right*/
+            flex-direction: column;
+            /*Makes the flex items a coloumn*/   
+            
+               
+        }
+        #fx-icon{
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            margin-top: 10vh;
+            
+        }
+        .Icons{
+            position: absolute; 
+            right: 0px;       
+            bottom: 0px;/*Makes the icons stick to the right of the body*/
+            margin-bottom: 8px;/*Gives a margin at bottom for icons*/
+            padding-right: 0px;
+        }
+        
+        .Icons span.row{
+    
+            padding: 0px 16px 4px 16px;
+        }
+        .Icons span.row ul{	
+            display: flex;/*Makes all the icons lie on the same plane*/
+            padding:0px;/*Removes padding set by styles_mine*/
+           
+        }
+        .Icons span.row #socialmediabuttons{
+            width: 101.667px;
+        }   
+        .Icons span.row #musicbuttons{
+            width: 164px;
+        }
+        .Icons span.row ul li{
+            
+            padding:8px;/*Left and right padding for list items*/
+        }
+        .Icons ul a img{
+            max-width: 20px;
+            height: 20px;
+            object-fit: contain;/*Controls the size of Social Media Icons*/
+        }
+        #contactstory,#maincontact{
+            height: max-content;/*Wraps around content*/
+            width: max-content;
+            padding: 32px 42px 28px 42px;/*Bottom is 10 px less due to padding from para tag(10px)*/
+            width: 40vw;
+            top:160px;
+            position: absolute;
+            right: 0px;/*Sticks to right end of maincontent*/
+            overflow: scroll ;/*If text overflows, then scroll*/
+            overflow-x: hidden;/*Hides the width scroll*/
+            overflow-y: hidden;
+            margin-top: 36px;
+            font-size: 16px;
+            font-weight: 900;
+            }
+        
+            #maincontact{
+                top:320px;
+            }
+        
+    }
+      
+      
+      
+      /********** Extra small devices only **********/
+      @media (max-width: 767px) {
+          /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+        div#main-content {
+            background: url("../images/rebgs/Sid\ Acharya\ 8.jpg") no-repeat center fixed;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: flex;/*Makes it possible for items to stick to right*/
+            flex-direction: column;/*Makes the flex items a coloumn*/
+        }
+    
+        #contactstory,#maincontact{
+            height: max-content;/*Wraps around content*/
+            width: max-content;
+            padding: 32px 42px 28px 42px;/*Bottom is 10 px less due to padding from para tag(10px)*/
+            width: 90vw;
+            align-self: flex-end;
+            /*Sticks to right end of maincontent */
+            overflow: scroll ;/*If text overflows, then scroll*/
+            overflow-x: hidden;/*Hides the width scroll*/
+            overflow-y: hidden;
+            margin-top: 36px;
+            font-size: 16px;
+            font-weight: 900;
+            }
+        #contactstory{
+            margin-top:30vh;
+        }
+        #fx-menu{
+            position: relative;
+        }
+        
+        
+    
+    
+    }

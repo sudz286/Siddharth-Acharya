@@ -1,0 +1,175 @@
+body {
+	color: rgb(223, 169, 89);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: center;	
+}
+/*Makes the navbar extend to the full width of the view port*/
+.navbar,.navbar-default{
+	width: 100vw;
+}
+/*Removes buttoned list*/
+#main-content ul{
+	list-style: none;
+}
+#header-nav {
+	/*Creates a fullbleed black header for all devices*/
+	background-color: black;
+	border-color: black;
+	border-radius: 0%;
+	text-transform: uppercase;
+}
+/*Triple icon is white */
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:white  ;
+		
+}
+/*To reduce the size of SocialIcon logo image in mob view*/
+.navbar-default .navbar-nav>li>a>span>img{
+	max-width: 20px;
+	height: 20px;
+	object-fit: contain;
+	
+	
+}
+/*To reduce the size of Sid Acharya logo image in mob view*/
+.navbar-brand p>img{
+	max-width: 55px;
+	height: auto;
+		
+}
+
+/*Triple icon border is removed*/
+.navbar-default .navbar-header button{
+	border: 0px;
+}
+
+/*Color of menu items is white in tablet and mob mode*/
+.navbar-default .navbar-nav>li>a{
+	color: white;	
+	align-self: center;
+}
+/*Color of menu items is blue during hover in tablet and mob mode*/
+.navbar-default .navbar-nav>li>a:hover{
+	color: aquamarine;
+}
+/*So that maincontent starts immediately from the header*/
+.navbar{
+	margin-bottom: 0px;
+}
+/*In desktop mode menu items in white*/
+#Home a,#Story a,#Videos a,#Media a,#Contact a{
+	color: white;
+	float: right;
+	text-transform: uppercase;
+	font-size: medium;
+
+	
+}
+/*In desktop mode menu items have no underline on hover*/
+#Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover{
+	text-decoration: none;
+	color: aquamarine;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	body{/*Makes the image cover the body */
+		/*Added so as to keep BG fixed for each browser and screen size*/
+		background: url("../images/BG_desktop.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;	
+    	background-size: cover;
+		background-size: cover; 
+
+	}
+	.footer {
+  			position: fixed;
+  			right:150px;
+  			bottom:15px;
+  			max-width:200px;
+  			width: 50%;
+  			height:30%;
+  			color: white;
+  			text-align: center;
+  			
+	}
+	.footer ul>span>li>a>img{
+		max-width: 28px;
+		height: 30px;
+		object-fit: contain;
+		margin-bottom: 14px;
+	}
+
+
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+	div#main-content {
+		/*Added so as to keep BG fixed for each browser and screen size*/
+		background: url("../images/BG_desktop.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;	
+    	background-size: cover;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	}
+		.footer {
+  			position: fixed;
+  			right:10px;
+  			bottom:0px;
+  			max-width:200px;
+  			width: 50%;
+  			height:30%;
+  			color: white;
+  			text-align: center;
+  			
+	}
+	.footer ul>span>li>a>img{
+		max-width: 24px;
+		height: 26px;
+		object-fit: contain;
+		margin-bottom: 14px;
+	}
+	  
+
+}
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+	div#main-content {
+		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+		/*Added so as to keep BG fixed for each browser and screen size*/
+		background: url("../images/BG_desktop.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;	
+    	background-size: cover;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	}
+
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	div#main-content {
+		background: url("../images/BG_Tablet&Mobile.jpg") no-repeat center center fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	}
+}
+
+

@@ -1,0 +1,6 @@
+{
+	"editor.fontSize": 16,
+	"terminal.integrated.shell.windows": "\"C:\\Program Files\\Git\\git-bash.exe\" ",
+	"workbench.colorTheme": "Monokai",
+	"liveServer.settings.port": 5501
+}

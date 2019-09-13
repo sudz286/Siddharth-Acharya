@@ -1,0 +1,226 @@
+
+	
+body {
+	color:white;
+
+}
+/*Removes buttoned list*/
+
+
+
+/*In desktop mode menu items in white*/
+#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
+	color:white;
+}
+/*In desktop mode menu items have no underline and have color on hover*/
+#Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+
+#albumicons ul li a img{
+	object-fit: contain;
+	max-width: 35px;
+	height: 35px;
+	transition: transform 0.1s ease-in ;	
+}
+#albumicons ul li a img:hover
+{
+	transform: scale(0.8);
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+	div#main-content{
+		background: url("../images/rebgs/Sid\ Acharya\ 10.jpg") no-repeat center fixed;
+		background-size:cover; 
+		width: 100vw;
+		height: 100vh;
+		background-position:bottom ;	
+	}
+	#mainalbum{
+		width: max-content;
+		height: max-content;
+		position: relative;	
+		left:12vw;
+		top: 6vh;	
+		line-height: 60px;
+	}
+	#written{	
+		line-height: 40px;
+		text-align: left;
+	}
+	#cap{	
+		text-transform: uppercase   ;
+		font-size: 55px;
+		font-weight: 900;
+	}
+	#albumicons{
+		text-align: left;	
+	}
+	#albumicons ul{
+		padding: 0px;
+		height: max-content;
+	}
+	#albumicons ul li{
+		width: max-content;
+	}
+	#albumicons ul li a #albumscb{
+		max-width: 45px;
+	}
+
+	#main-content #fx-menu #fx-icon{
+		display: none !important;
+	}
+}
+  
+  /********** Medium devices and Small Devices only **********/
+  @media (min-width: 768px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/rebgs/Sid\ Acharya\ 9.jpg") no-repeat center  fixed;
+		background-size: cover;
+		position: relative;
+		width: 100vw;
+        height: 100vh;
+        background-position:top;
+		
+	}
+	#mainalbum{
+		width: max-content;
+		height: max-content;
+		position: relative;	
+		left:12vw;
+		top: 6vh;	
+		line-height: 60px;
+	}
+	#written{	
+		line-height: 40px;
+		text-align: left;
+	}
+	#cap{	
+		text-transform: uppercase   ;
+		font-size: 55px;
+		font-weight: 900;
+	}
+	#albumicons{
+		text-align: left;	
+	}
+	#albumicons ul{
+		padding: 0px;
+		height: max-content;
+	}
+	#albumicons ul li{
+		width: max-content;
+	}
+	#albumicons ul li a #albumscb{
+		max-width: 45px;
+	}
+
+
+	#main-content #fx-menu #fx-icon{
+		display: none !important;
+	}
+}
+  
+  
+  
+  
+  /********** Extra small devices only **********/
+ 
+@media (max-width: 767px) {
+	/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	div#main-content {
+		background: url("../images/rebgs/Sid\ Acharya\ 9.jpg") no-repeat center  fixed;
+		background-size: cover;
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+		background-position:top;
+	} 
+
+    #main-content #fx-container #menubutton{
+       color: white;
+	}  
+
+	#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
+		color: white;
+	}
+
+	#brandlogo{ 	
+		max-width: 100%;
+		height: 100px;
+		object-fit: contain;
+		padding-top:22px;
+		padding-bottom:22px;	
+		padding-left:30px;
+		padding-right:34px;
+	}
+
+	#mainalbum{
+		width: max-content;
+		height: max-content;
+		position: relative;	
+		margin: 0px auto;	
+		line-height: 60px;
+		top:64vh;
+		
+	}
+	#written{	
+		line-height: 30px;
+		text-align: left;
+	}
+	#cap{	
+		text-transform: uppercase   ;
+		font-size: 35px;
+		font-weight: 900;
+	}
+	#albumicons{
+		text-align: left;	
+	}
+	#albumicons ul{
+		padding: 0px;
+		height: max-content;
+	}
+	#albumicons ul li{
+		width: max-content;
+	}
+	#albumicons ul li a #albumscb{
+		max-width: 45px;
+	}
+	.Iconcool{	
+		background-color:white;
+		color: white;
+		opacity: 0.5;	
+	}
+	#fx-menu ul.menuitems{
+		background:rgba(255,255,255,0.5);
+
+	}
+} 	
