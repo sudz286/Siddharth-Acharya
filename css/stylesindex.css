@@ -17,7 +17,7 @@
 		width: max-content;
 		height: max-content;
 		position: absolute;
-		botto	m: calc(150px - 30px) ;
+		bottom: calc(150px - 30px) ;
 		left: calc(60vw - 23px);
 	}
 	#albcross img{
