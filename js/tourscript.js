@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded",
         var first = document.querySelectorAll(".firsttour");
         var second = document.querySelectorAll(".secondtour");
         var third = document.querySelectorAll(".thirdtour");
+        var fourth = document.querySelectorAll(".fourthtour");
         var arrowleft = document.getElementById("left");
         var arrowright = document.getElementById("right");
         var j;
@@ -24,12 +25,15 @@ document.addEventListener("DOMContentLoaded",
         for(j=0;j < third.length; j++){
             third[j].style.display = "none";
         }
+        for(j=0;j< fourth.length;j++){
+            fourth[j].style.display = "none";
+        }
         arrowleft.style.visibility = "hidden";
 
         function rightclick(event) {
 
             console.log("before right" + hid);
-            if (hid == 4) {
+            if (hid == 5) {
                 hid = 1;
             }
             hid++;
@@ -45,6 +49,9 @@ document.addEventListener("DOMContentLoaded",
                 for(j=0; j < third.length; j++){
                     third[j].display = "none";
                 }
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "none";
+                }
             }
             else if (hid == 2) {
                 for (j = 0; j < first.length; j++) {
@@ -56,6 +63,9 @@ document.addEventListener("DOMContentLoaded",
                 for (j = 0; j < third.length; j++) {
                     third[j].style.display = "none";
                 };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "none";
+                }
                 arrowleft.style.visibility = "visible";
                 arrowright.style.display = "visible";
             }
@@ -69,6 +79,25 @@ document.addEventListener("DOMContentLoaded",
                 for (j = 0; j < third.length; j++) {
                     third[j].style.display = "block";
                 };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "none";
+                }
+                arrowleft.style.visibility = "visible";
+                arrowright.style.visibility = "visible";
+            }
+            else if (hid == 4) {
+                for (j = 0; j < first.length; j++) {
+                    first[j].style.display = "none";
+                };
+                for (j = 0; j < second.length; j++) {
+                    second[j].style.display = "none";
+                };
+                for (j = 0; j < third.length; j++) {
+                    third[j].style.display = "none";
+                };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "block";
+                }
                 arrowleft.style.visibility = "visible";
                 arrowright.style.visibility = "hidden";
             }
@@ -80,7 +109,7 @@ document.addEventListener("DOMContentLoaded",
         function leftclick(event) {
 
             console.log("before left" + hid);
-            if (hid == 4) {
+            if (hid == 5) {
                 hid = 1;
             }
             hid--;
@@ -96,6 +125,9 @@ document.addEventListener("DOMContentLoaded",
                 for (j = 0; j < third.length; j++) {
                     third[j].style.display = "none";
                 };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "none";
+                }
                 arrowleft.style.visibility = "hidden";
                 arrowright.style.visibility = "visible";
             }
@@ -109,6 +141,9 @@ document.addEventListener("DOMContentLoaded",
                 for (j = 0; j < third.length; j++) {
                     third[j].style.display = "none";
                 };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "none";
+                }
                 arrowleft.style.visibility = "visible";
                 arrowright.style.visibility = "visible";
             }
@@ -122,10 +157,30 @@ document.addEventListener("DOMContentLoaded",
                 for (j = 0; j < third.length; j++) {
                     third[j].style.display = "block";                 
                 };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "none";
+                }
+                arrowleft.style.visibility = "visible";
+                arrowright.style.visibility = "visible";
+            }
+            else if (hid == 4) {
+                for (j = 0; j < first.length; j++) {
+                    first[j].style.display = "none";
+                };
+                for (j = 0; j < second.length; j++) {
+                    second[j].style.display = "none";
+                };
+                for (j = 0; j < third.length; j++) {
+                    third[j].style.display = "none";                 
+                };
+                for(j=0;j< fourth.length;j++){
+                    fourth[j].style.display = "block";
+                }
                 arrowleft.style.visibility = "visible";
                 arrowright.style.visibility = "hidden";
             }
         };
+
         document.getElementById("left")
             .addEventListener("click", leftclick);
 
